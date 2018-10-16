@@ -34,6 +34,7 @@ export default {
     line-height .86rem
     background $bgColor
     justify-content space-around
+    color #ffffff
     .header-left
       width .64rem
       text-align center
