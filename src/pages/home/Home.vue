@@ -1,10 +1,12 @@
 <template>
   <div>
-    home
+    <home-header></home-header>
   </div>
 </template>
 
 <script>
+import HomeHeader from './components/Header'
+
 export default {
   data () {
     return {
@@ -12,11 +14,11 @@ export default {
     }
   },
   components: {
-
+    HomeHeader
   }
 }
 </script>
 
-<style>
+<style lang="stylus" scoped>
 
 </style>
