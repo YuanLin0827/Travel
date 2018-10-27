@@ -8,7 +8,7 @@
       输入城市/景点/游玩主题
     </div>
     <div class="header-right">
-      城市
+      {{this.city}}
       <span class="iconfont icon-jiantouarrow486"></span>
     </div>
   </div>
@@ -16,6 +16,9 @@
 
 <script>
 export default {
+  props: {
+    city: String
+  },
   data () {
     return {
 
@@ -52,4 +55,6 @@ export default {
     .header-right
       text-align center
       width 1.24rem
+      .icon-jiantouarrow486
+        margin-left -.1rem
 </style>
