@@ -17,14 +17,15 @@
 </template>
 
 <script>
+import { mapState } from 'vuex'
 export default {
-  props: {
-    city: String
-  },
   data () {
     return {
 
     }
+  },
+  computed: {
+    ...mapState(['city'])
   },
   components: {
   }
@@ -56,7 +57,8 @@ export default {
       color #cccccc
     .header-right
       text-align center
-      width 1.24rem
+      min-width 1.04rem
+      padding 0 .1rem
       color #ffffff
       .icon-jiantouarrow486
         margin-left -.1rem

@@ -33,7 +33,7 @@ export default {
   text-align center
   color #fff
   background $bgColor
-  font-size .32rem
+  fonta-size .32rem
   .header-left
     position absolute
     top 0
