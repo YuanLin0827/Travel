@@ -16,6 +16,7 @@ fastClick.attach(document.body)
 Vue.use(VueAwesomeSwiper)
 
 /* eslint-disable no-new */
+this.router = {}
 new Vue({
   el: '#app',
   router,
