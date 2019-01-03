@@ -2,6 +2,7 @@ function foo () {
   console.log(test.name)
 }
 
+
 var test = {
   name: 'yuanlin'
 }
